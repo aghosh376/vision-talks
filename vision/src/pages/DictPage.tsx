@@ -1,6 +1,12 @@
 import React, {useState} from 'react';
 import Card from '../components/Card';
 import './Dict.css';
+import '../assets/pictures'
+
+function defCard() {
+  
+}
+
 
 const DictPage: React.FC = () => {
     return (
