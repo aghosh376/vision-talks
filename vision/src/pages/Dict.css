@@ -1,0 +1,15 @@
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.dict {
+    flex: 0 0 100%;
+    min-width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}

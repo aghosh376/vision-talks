@@ -42,8 +42,11 @@
 }
 
 nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   display: flex;
-  justify-content: center; /* Centers the items horizontally */
+  justify-content: flex-end;
 }
 
 .nav-list {
@@ -51,6 +54,7 @@ nav {
   display: flex;
   gap: 20px;
   padding: 0;
+  margin: 0;
 }
 
 .nav-item {
@@ -75,4 +79,21 @@ nav {
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 5px;
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;  /* Centers content horizontally */
+  align-items: center;      /* Centers content vertically */
+  height: calc(100vh - 100px); /* Full viewport height minus 100px to account for the navbar */
+  text-align: center;       /* Optional for centered text */
+  margin-top: 80px;         /* Adds space between navbar and content */
+  padding: 20px;            /* Additional padding for visual separation */
+}
+
+/* Ensure full height of the page */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }

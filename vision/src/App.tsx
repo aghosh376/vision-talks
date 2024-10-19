@@ -7,12 +7,11 @@ import DictPage from './pages/DictPage';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Router>
       <div>
-      <nav>
+        <nav>
           <ul className="nav-list">
             <li className="nav-item">
               <NavLink
@@ -34,17 +33,18 @@ function App() {
             {/* Add more NavLinks as needed */}
           </ul>
         </nav>
-
-        {/* A <Routes> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/dict" element={<DictPage />} />
-          {/* ... other routes */}
-        </Routes>
-        </div>
+          <div className="page-content">
+            {/* A <Routes> looks through its children <Route>s and
+                renders the first one that matches the current URL. */}
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/dict" element={<DictPage />} />
+              {/* ... other routes */}
+            </Routes>
+          </div>
+      </div>
     </Router>  
-    )
+  )
 }
 
 export default App
