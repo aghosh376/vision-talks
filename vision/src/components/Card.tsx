@@ -15,7 +15,9 @@ const Card: React.FC<CardProps> = ({ letter, imageUrl }) => {
 
     return (
         
-        <div className={`card ${isFlipped ? 'flipped' : ''}`} onClick={handleClick}>
+        <div className={`card ${isFlipped ? 'flipped' : ''}`} 
+        onClick={handleClick}
+        style={{ zIndex: isFlipped ? 1000 : 0 }}>
             <div className="card-inner">
                 <div className="card-front">
                     <h2>{letter}</h2>

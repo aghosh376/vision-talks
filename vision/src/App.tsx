@@ -1,10 +1,9 @@
 import { useState } from 'react'
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
 import HomePage from './pages/HomePage';
 import DictPage from './pages/DictPage';
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
@@ -13,15 +12,26 @@ function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
+      <nav>
+          <ul className="nav-list">
+            <li className="nav-item">
+              <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? 'active-link' : 'nav-link')}
+                end
+              >
+                Home
+              </NavLink>
             </li>
-            <li>
-              <Link to="/dict">Dict</Link>
+            <li className="nav-item">
+              <NavLink
+                to="/dict"
+                className={({ isActive }) => (isActive ? 'active-link' : 'nav-link')}
+              >
+                Dict
+              </NavLink>
             </li>
-            {/* ... other links */}
+            {/* Add more NavLinks as needed */}
           </ul>
         </nav>
 

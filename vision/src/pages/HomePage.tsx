@@ -22,7 +22,6 @@ const HomePage: React.FC = () => {
         <button onClick={() => setCount((prevCount) => prevCount + 1)}>
           count is {count}
         </button>
-        <Routes />
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>

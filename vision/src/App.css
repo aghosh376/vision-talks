@@ -40,3 +40,39 @@
 .read-the-docs {
   color: #888;
 }
+
+nav {
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #f0f0f0;
+}
+
+.active-link {
+  background-color: #007bff; /* Active link background */
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
