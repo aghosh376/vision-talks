@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 1380px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -43,7 +43,11 @@
 }*/
 
 .container {
-  padding: 2em;
+  margin: 0 8em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
 }
 
 .read-the-docs {
@@ -100,6 +104,10 @@ nav {
   padding: 20px;            /* Additional padding for visual separation */
 }
 
+.descriptor {
+  align-items: center;
+  max-width: 40%;
+}
 /* Ensure full height of the page */
 html, body {
   margin: 0;
