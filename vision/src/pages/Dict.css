@@ -1,12 +1,14 @@
 .cards-container {
+    
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Create responsive grid columns */
     gap: 10px; /* Add space between the cards */
     padding: 0px;
     width: 100%; /* Ensure the container spans the full width */
     max-width: 100vw; /* Optional: limit max width */
-    margin: 300px 0 0 0; /* 600px space from the top of the screen */
+    margin: 100px 0 0 0; /* 600px space from the top of the screen */
     box-sizing: border-box;
+    
 }
 
 .dict {
