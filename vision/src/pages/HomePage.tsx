@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 //import { Routes } from 'react-router-dom'; // Make sure you import Routes from react-router-dom
-import reactLogo from '../assets/react.svg';
+import linkedinLogo from '../assets/linkedin.svg';
 import githubLogo from '../assets/github.svg';
 import '../../src/App.css';
 
@@ -10,11 +10,15 @@ const HomePage: React.FC = () => {
   return (
     <>
       <div>
+        
+        <a href="https://www.linkedin.com/in/amartya-raybo-ghosh/" target="_blank" rel="noopener noreferrer">
+          <img src={linkedinLogo} className="logo react" alt="React logo" />
+        </a>
+        <a href="https://www.linkedin.com/in/eeshan-khullar/" target="_blank" rel="noopener noreferrer">
+          <img src={linkedinLogo} className="logo react" alt="React logo" />
+        </a>
         <a href="https://github.com/aghosh376/vision-talks" target="_blank" rel="noopener noreferrer">
           <img src={githubLogo} className="logo" alt="Github logo" />
-        </a>
-        <a href="https://www.linkedin.com/in/amartya-raybo-ghosh/" target="_blank" rel="noopener noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
       <h1>Vision Talks</h1>
@@ -25,7 +29,7 @@ const HomePage: React.FC = () => {
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
           <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the LinkedIn buttons to know about the developers and Githuh logo to explore this page's code!
       </p>
         </p>
       </div>
