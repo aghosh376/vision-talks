@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+//import React, {useState} from 'react';
 import Card from '../components/Card';
 import './Dict.css';
 
@@ -20,11 +20,12 @@ const cardData = [
 
 const DictPage: React.FC = () => {
     return (
-        <div className="cards-container">
+        
+        <body className="cards-container">
             {cardData.map((card, index) => (
                 <Card key={index} letter={card.letter} imageUrl={card.imageUrl} />
             ))}
-        </div>
+        </body>
     );
   };
   

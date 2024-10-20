@@ -29,7 +29,7 @@ function App() {
                 to="/dict"
                 className={({ isActive }) => (isActive ? 'active-link' : 'nav-link')}
               >
-                Dict
+                Spelling
               </NavLink>
             </li>
             <li className="nav-item">

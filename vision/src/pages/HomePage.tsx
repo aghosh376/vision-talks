@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Routes } from 'react-router-dom'; // Make sure you import Routes from react-router-dom
+//import { Routes } from 'react-router-dom'; // Make sure you import Routes from react-router-dom
 import reactLogo from '../assets/react.svg';
 import viteLogo from '../../public/vite.svg';
 import '../../src/App.css';
@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
         </a>
       </div>
       <h1>Vision Talks</h1>
-      <div className="card">
+      <div className="container">
         <button onClick={() => setCount((prevCount) => prevCount + 1)}>
           count is {count}
         </button>
