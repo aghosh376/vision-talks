@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 //import { Routes } from 'react-router-dom'; // Make sure you import Routes from react-router-dom
 import reactLogo from '../assets/react.svg';
-import viteLogo from '../../public/vite.svg';
+import viteLogo from '/vite.svg';
 import '../../src/App.css';
 
 const HomePage: React.FC = () => {
