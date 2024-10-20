@@ -1,6 +1,12 @@
 import React, {useState} from 'react';
 import Card from '../components/Card';
 import './Dict.css';
+import '../assets/pictures'
+
+function defCard() {
+  
+}
+
 
 const cardData = [
     { letter: 'A', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlDuNdz3Bi3Bs9issz4gpFsJa089KYY5YUww&s' },

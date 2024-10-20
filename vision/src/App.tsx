@@ -6,6 +6,8 @@ import DictPage from './pages/DictPage';
 
 import './App.css'
 
+
+
 function App() {
 
   return (
@@ -28,6 +30,14 @@ function App() {
                 className={({ isActive }) => (isActive ? 'active-link' : 'nav-link')}
               >
                 Dict
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/words"
+                className={({ isActive }) => (isActive ? 'active-link' : 'nav-link')}
+              >
+                Words
               </NavLink>
             </li>
             {/* Add more NavLinks as needed */}
