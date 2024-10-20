@@ -1,14 +1,24 @@
 //import React, {useState} from 'react';
 import Card from '../components/Card';
-import '../assets/pictures'
+import './Word.css';
 
-const DictPage: React.FC = () => {
-    return (
-      <div className="card-container">
-        <Card letter="same" imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlDuNdz3Bi3Bs9issz4gpFsJa089KYY5YUww&s" />
-        {/* Add more FlipCards as needed */}
-      </div>
+const wordCardData = [
+    { letter: 'Words', imageUrl: '/assets/pictures/A.png' },
+    { letter: 'Word 2', imageUrl: '/assets/pictures/B.png' },
+    { letter: 'Word 3', imageUrl: '/assets/pictures/C.png' },
+    { letter: 'Word 4', imageUrl: '/assets/pictures/C.png' },
+
+    // Add more cards as needed
+];
+
+const WordPage: React.FC = () => {
+    return (        
+        <body className="cards-container">
+            {wordCardData.map((card, index) => (
+                <Card key={index} letter={card.letter} imageUrl={card.imageUrl} />
+            ))}
+        </body>
     );
   };
   
-  export default DictPage;
+  export default WordPage;
