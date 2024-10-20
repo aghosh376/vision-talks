@@ -3,7 +3,7 @@ import Card from '../components/Card';
 import './Word.css';
 
 const wordCardData = [
-    { letter: 'Eat', imageUrl: '/assets/pictures/eat.png' },
+    { letter: 'Eat', imageUrl: '/assets/pictures/Eat.png' },
     { letter: 'More', imageUrl: '/assets/pictures/More.png' },
     { letter: 'Hurt', imageUrl: '/assets/pictures/Hurt.png' },
     { letter: 'Tired', imageUrl: '/assets/pictures/tired.gif' },
