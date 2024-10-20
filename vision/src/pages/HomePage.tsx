@@ -12,10 +12,10 @@ const HomePage: React.FC = () => {
       <div>
         
         <a href="https://www.linkedin.com/in/amartya-raybo-ghosh/" target="_blank" rel="noopener noreferrer">
-          <img src={linkedinLogo} className="logo" alt="React logo" />
+          <img src={linkedinLogo} className="logo-react" alt="React logo" />
         </a>
         <a href="https://www.linkedin.com/in/eeshan-khullar/" target="_blank" rel="noopener noreferrer">
-          <img src={linkedinLogo} className="logo" alt="React logo" />
+          <img src={linkedinLogo} className="logo-react" alt="React logo" />
         </a>
         <a href="https://github.com/aghosh376/vision-talks" target="_blank" rel="noopener noreferrer">
           <img src={githubLogo} className="logo" alt="Github logo" />
