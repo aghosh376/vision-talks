@@ -3,6 +3,8 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
 import HomePage from './pages/HomePage';
 import DictPage from './pages/DictPage';
+import WordPage from './pages/WordPage';
+
 
 import './App.css'
 
@@ -49,6 +51,7 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/dict" element={<DictPage />} />
+              <Route path="/words" element={<WordPage />} />
               {/* ... other routes */}
             </Routes>
           </div>
