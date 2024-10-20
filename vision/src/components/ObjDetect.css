@@ -10,7 +10,6 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
@@ -101,7 +100,6 @@
       margin: 4px;
     }
   }
-
   .feed {
     position: relative;
   
@@ -124,3 +122,24 @@
     }
   
   }
+
+  /*
+  .feed {
+    position: relative;  /* Important for absolute positioning of markers *//*
+    display: inline-block;  /* Ensures feed container sizes to video *//*
+  }
+  
+  .feed .marker {
+    position: absolute;
+    border: 2px solid red;
+    border: 1px dashed #fff;
+    pointer-events: none;  /* So the marker doesn't interfere with clicks *//*
+  }
+  
+  .feed p {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px;
+    font-size: 12px;
+    pointer-events: none;  /* Prevent interference with user interactions *//*
+  }*/

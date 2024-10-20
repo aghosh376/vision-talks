@@ -1,3 +1,7 @@
+import * as handpose from '@tensorflow-models/handpose';
+import '@tensorflow/tfjs-backend-webgl'
+import * as handPoseDetect from '@tensorflow-models/hand-pose-detection';
+import '@tensorflow/tfjs';
 import React, { useEffect, useRef, useState } from 'react';
 import "./ObjDetect.css";
 import * as cocoSsd from '@tensorflow-models/coco-ssd';

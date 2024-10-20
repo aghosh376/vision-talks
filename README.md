@@ -11,3 +11,5 @@ https://www.startasl.com/wp-content/uploads/sign-language-flashcards.pdf
 https://lifeprint.com/
 
 https://signily.com
+
+https://www.slideshare.net/slideshow/numbers-in-asl/70722207#29
