@@ -59,6 +59,8 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/dict" element={<DictPage />} />
+              <Route path="/words" element={<WordPage />} />
+              <Route path="/detection" element={<DetectionPage />} />
               {/* ... other routes */}
             </Routes>
           </div>
