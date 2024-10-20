@@ -3,9 +3,9 @@ import Card from '../components/Card';
 import './Word.css';
 
 const wordCardData = [
-    { letter: 'Eat', imageUrl: '/assets/pictures/eat.png' },
+    { letter: 'Eat', imageUrl: '/assets/pictures/Eat.png' },
     { letter: 'More', imageUrl: '/assets/pictures/More.png' },
-    { letter: 'Word 3', imageUrl: '/assets/pictures/C.png' },
+    { letter: 'Hurt', imageUrl: '/assets/pictures/Hurt.png' },
     { letter: 'Word 4', imageUrl: '/assets/pictures/C.png' },
 
     // https://printable.conaresvirtual.edu.sv/en/words-in-sign-language-printables.html
