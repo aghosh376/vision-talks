@@ -8,7 +8,7 @@ const wordCardData = [
     { letter: 'Hurt', imageUrl: '/assets/pictures/Hurt.png' },
     { letter: 'Word 4', imageUrl: '/assets/pictures/C.png' },
 
-    // https://printable.conaresvirtual.edu.sv/en/words-in-sign-language-printables.html
+    // https://www.printablee.com/postpic/2013/07/basic-baby-sign-language-words-chart_392258.jpg
     // Add more cards as needed
 ];
 
