@@ -2,8 +2,6 @@
 import Card from '../components/Card';
 import './Dict.css';
 
-
-
 const cardData = [
     { letter: 'A', imageUrl: '/assets/pictures/A.png' },
     { letter: 'B', imageUrl: '/assets/pictures/B.png' },
@@ -22,7 +20,17 @@ const cardData = [
     { letter: 'O', imageUrl: '/assets/pictures/O.png' },
     { letter: 'P', imageUrl: '/assets/pictures/P.png' },
     { letter: 'Q', imageUrl: '/assets/pictures/Q.png' },
+    { letter: 'R', imageUrl: '/assets/pictures/R.png' },
+    { letter: 'S', imageUrl: '/assets/pictures/S.png' },
+    { letter: 'T', imageUrl: '/assets/pictures/T.png' },
+    { letter: 'U', imageUrl: '/assets/pictures/U.png' },
+    { letter: 'V', imageUrl: '/assets/pictures/V.png' },
+    { letter: 'W', imageUrl: '/assets/pictures/W.png' },
+    { letter: 'X', imageUrl: '/assets/pictures/X.png' },
+    { letter: 'Y', imageUrl: '/assets/pictures/Y.png' },
+    { letter: 'Z', imageUrl: '/assets/pictures/Z.png' },
     // Add more cards as needed
+    // www.startasl.com/
 ];
 
 const DictPage: React.FC = () => {
