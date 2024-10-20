@@ -35,6 +35,8 @@
 
 .card {
   padding: 2em;
+  justify-content: center;
+  align-items: center;
 }
 
 .read-the-docs {
