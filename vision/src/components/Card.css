@@ -1,6 +1,6 @@
 .card {
-    width: 300px; /* Adjust the width */
-    height: 300px; /* Adjust the height */
+    width: 200px; /* Adjust the width */
+    height: 200px; /* Adjust the height */
     perspective: 1000px; /* Add perspective */
     margin: 0 auto; /* Add margin */
     border: 1px solid transparent;
@@ -13,7 +13,7 @@
   }
 
   .card:hover {
-    border-color: #868687;
+    border-color: #7070ed;
     border-width: 2px; /* Adjust the border width */ /* Add margin */
   }
   
@@ -47,17 +47,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px; /* Adjust font size */
+    font-size: 64px; /* Adjust font size */
     border-radius: 8px;
   }
   
   .card-front {
-    background-color: #f7f7f7; /* Front background color */
+    background-color: #37acf5; /* Front background color */
     color: rgb(8, 8, 8); /* Front text color */
   }
   
   .card-back {
-    background-color: #f1f1f1; /* Back background color */
+    background-color: #37acf5; /* Back background color */
     transform: rotateY(180deg); /* Rotate back face */
   }
   
