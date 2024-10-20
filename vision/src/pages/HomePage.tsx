@@ -9,8 +9,7 @@ const HomePage: React.FC = () => {
 
   return (
     <>
-      <div>
-        
+      <div className='descriptor'>
         <a href="https://www.linkedin.com/in/amartya-raybo-ghosh/" target="_blank" rel="noopener noreferrer">
           <img src={linkedinLogo} className="logo-react" alt="React logo" />
         </a>
@@ -20,18 +19,17 @@ const HomePage: React.FC = () => {
         <a href="https://github.com/aghosh376/vision-talks" target="_blank" rel="noopener noreferrer">
           <img src={githubLogo} className="logo" alt="Github logo" />
         </a>
-      </div>
-      <h1>Vision Talks</h1>
-      <div className="container">
-        <button onClick={() => setCount((prevCount) => prevCount + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-          <p className="read-the-docs">
-        Click on the LinkedIn buttons to know about the developers and Githuh logo to explore this page's code!
-      </p>
+        <p className="read-the-docs">
+          Click on the LinkedIn buttons to know about the developers and Githuh logo to explore this page's code!
         </p>
+      </div>
+      <div>
+      <h1>Vision Talks</h1>
+      <div>
+      <p className="container">
+          Vision Talks is a platform where you can learn American Sign Language (ASL) and English words. Click on the Spelling tab to learn the ASL alphabet and the Words tab to learn some basic English words.
+        </p>
+        </div>
       </div>
       
     </>
