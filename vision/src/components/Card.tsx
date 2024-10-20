@@ -20,7 +20,7 @@ const Card: React.FC<CardProps> = ({ letter, imageUrl }) => {
         style={{ zIndex: isFlipped ? 1000 : 0 }}>
             <div className="card-inner">
                 <div className="card-front">
-                    <h2>{letter}</h2>
+                    <h2 style={{ fontSize: '55px' }}>{letter}</h2>
                 </div>
                 <div className="card-back">
                     <img src={imageUrl} alt={letter} />
