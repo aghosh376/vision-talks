@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 //import { Routes } from 'react-router-dom'; // Make sure you import Routes from react-router-dom
 import reactLogo from '../assets/react.svg';
-import githubLogo from '/github.svg';
+import githubLogo from '../assets/github.svg';
 import '../../src/App.css';
 
 const HomePage: React.FC = () => {
