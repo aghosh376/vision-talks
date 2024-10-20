@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
+//import { useState } from 'react'
+//import React from 'react'
+import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import HomePage from './pages/HomePage';
 import DictPage from './pages/DictPage';
 import WordPage from './pages/WordPage';
-
+import DetectionPage from './pages/Detect';
 
 import './App.css'
 
@@ -42,6 +42,14 @@ function App() {
                 Words
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                to="/detection"
+                className={({ isActive }) => (isActive ? 'active-link' : 'nav-link')}
+              >
+                Detect
+              </NavLink>
+            </li>
             {/* Add more NavLinks as needed */}
           </ul>
         </nav>
@@ -51,7 +59,6 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/dict" element={<DictPage />} />
-              <Route path="/words" element={<WordPage />} />
               {/* ... other routes */}
             </Routes>
           </div>
