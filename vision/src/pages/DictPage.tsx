@@ -10,11 +10,11 @@ const cardData = [
     { letter: 'C', imageUrl: '/assets/pictures/C.png' },
     { letter: 'D', imageUrl: '/assets/pictures/D.png' },
     { letter: 'E', imageUrl: '/assets/pictures/E.png' },
-    { letter: 'D', imageUrl: '../picture/imageD.jpg' },
-    { letter: 'C', imageUrl: '../picture/imageC.jpg' },
-    { letter: 'D', imageUrl: '../picture/imageD.jpg' },
-    { letter: 'C', imageUrl: '../picture/imageC.jpg' },
-    { letter: 'D', imageUrl: '../picture/imageD.jpg' },
+    { letter: 'F', imageUrl: '../picture/imageD.jpg' },
+    { letter: 'G', imageUrl: '../picture/imageC.jpg' },
+    { letter: 'H', imageUrl: '../picture/imageD.jpg' },
+    { letter: 'I', imageUrl: '../picture/imageC.jpg' },
+    { letter: 'J', imageUrl: '../picture/imageD.jpg' },
     // Add more cards as needed
 ];
 
