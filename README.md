@@ -9,3 +9,5 @@ https://www.printablee.com/postpic/2013/07/basic-baby-sign-language-words-chart_
 https://www.startasl.com/wp-content/uploads/sign-language-flashcards.pdf
 
 https://lifeprint.com/
+
+https://signily.com
