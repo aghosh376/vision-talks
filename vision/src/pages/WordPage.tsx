@@ -7,6 +7,9 @@ const wordCardData = [
     { letter: 'More', imageUrl: '/assets/pictures/More.png' },
     { letter: 'Hurt', imageUrl: '/assets/pictures/Hurt.png' },
     { letter: 'Tired', imageUrl: '/assets/pictures/tired.gif' },
+    { letter: 'Go', imageUrl: '/assets/pictures/Go.gif' },
+    { letter: 'Love', imageUrl: '/assets/pictures/Love.gif' },
+    { letter: 'No', imageUrl: '/assets/pictures/No.gif' },
 
     // https://www.printablee.com/postpic/2013/07/basic-baby-sign-language-words-chart_392258.jpg
     // Add more cards as needed
