@@ -15,6 +15,13 @@ const cardData = [
     { letter: 'H', imageUrl: '/assets/pictures/H.png' },
     { letter: 'I', imageUrl: '/assets/pictures/I.png' },
     { letter: 'J', imageUrl: '/assets/pictures/J.png' },
+    { letter: 'K', imageUrl: '/assets/pictures/K.png' },
+    { letter: 'L', imageUrl: '/assets/pictures/L.png' },
+    { letter: 'M', imageUrl: '/assets/pictures/M.png' },
+    { letter: 'N', imageUrl: '/assets/pictures/N.png' },
+    { letter: 'O', imageUrl: '/assets/pictures/O.png' },
+    { letter: 'P', imageUrl: '/assets/pictures/P.png' },
+    { letter: 'Q', imageUrl: '/assets/pictures/Q.png' },
     // Add more cards as needed
 ];
 
